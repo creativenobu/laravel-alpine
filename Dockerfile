@@ -1,4 +1,5 @@
 FROM alpine:3.10
+LABEL maintainer="creativenobu"
 
 WORKDIR /var/www
 COPY server.sh /bin/server
