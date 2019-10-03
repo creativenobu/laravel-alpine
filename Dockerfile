@@ -20,7 +20,6 @@ php7-zip \
 php7-fileinfo \
 php7-tokenizer \
 php7-dom \
-php7-session \
-composer
+php7-session
 
 ENTRYPOINT ["/bin/server"]
