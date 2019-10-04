@@ -8,6 +8,7 @@ EXPOSE 80
 RUN apk add --update \
 php7 \
 php7-fpm \
+php7-mysqlnd \
 php7-mysqli \
 php7-pdo \
 php7-pdo_mysql \
